@@ -1,0 +1,48 @@
+body{
+    background: lightpink;
+}
+
+.main{
+    width: 400px;
+    height: 250px;
+    background: #fff;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+}
+
+.main::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 23%;
+    left: 30%;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.65;
+    background: red;
+}
+
+.main::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 23%;
+    left: 20%;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.65;
+    background: orange;
+}
+
+.text{
+    font-weight: 700;
+    font-size: 25px;
+    top: 65%;
+    left: 33%;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    
+}
